@@ -1,11 +1,15 @@
 package py.com.fi.prototipo.utils;
 
 /**
- * Clase donde se definen los valores estaticos de configuracion
+ * Interfase donde se definen los valores estaticos de configuracion
  * @author wtorales
  * @fecha 29/11/2021
  */
-public class Constants {
-    final static String MD5 = "MD5";
-    final static String UTF8 = "UTF8";
+public interface Constants {
+    static final String MD5 = "MD5";
+    static final String UTF8 = "UTF8";
+    static final String TOKEN_PREFIX = "Bearer";
+    static final String HEADER_STRING = "Authorization";
+    static final String USER_STRING = "user-token";
+    static final int DIVISECON = 60000;
 }
